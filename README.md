@@ -21,9 +21,12 @@ A lightweight, beautiful, and intuitive vocabulary learning app rebuilt in **Swi
 
 ---
 
-## 📱 Screenshots
-
-*Coming soon*
+## 📱 Screen
+![Simulator Screenshot - iPhone 16 Pro - 2025-03-31 at 15 02 54](https://github.com/user-attachments/assets/58ecf5f3-9100-4df5-8633-419d3e0ea7ac)
+shots
+![Simulator Screenshot - iPhone 16 Pro - 2025-03-31 at 15 02 50](https://github.com/user-attachments/assets/39087a56-5827-4420-b53d-c0861cdb057b)
+![Simulator Screenshot - iPhone 16 Pro - 2025-03-31 at 15 01 48](https://github.com/user-attachments/assets/a4835718-39d8-48e9-b830-9cd6da2912c5)
+![Simulator Screenshot - iPhone 16 Pro - 2025-03-31 at 15 01 53](https://github.com/user-attachments/assets/9a046438-49b2-4ed6-8bad-b264e613afd3)
 
 ---
 
@@ -69,10 +72,25 @@ WordSwiperViewModel handles index logic, word service injection, and infinite lo
 
 Views are clean, reactive, and maintain separation of UI and logic
 
-🚀 UX Improvements & Suggestions
-Feature to Improve:
-The original app allows users to play audio while also starting a new recording, which causes overlapping sounds and a confusing experience.
-✅ Fix: Playback is now automatically stopped when recording begins, and vice versa, ensuring clear, conflict-free interaction.
+🚀 UX Improvements & Suggestions❌ Feature Currently Spoiling User Experience
+The cluttered lower-half of the original home screen
+
+In the original app, the home screen includes 4 small buttons (share, favorite, speech, save) and a bottom navigation bar with 3 more options (categories, practice, settings).
+
+This results in overload and distraction, taking focus away from the main goal — learning the word.
+
+✅ Why it's hurting UX:
+
+It reduces clarity and adds friction.
+
+Most users are here to swipe and learn, not manage favorites or jump around.
+
+✅ Suggested fix:
+
+Remove or hide these elements until they are actually needed.
+
+Focus the UI on the word, its meaning, and a single clear action (like record/play or “next”).
+
 
 Missing Features That Add Value:
 
@@ -99,14 +117,14 @@ Clone the repo
 bash
 Copy
 Edit
-git clone https://github.com/your-username/vocabulary-app-swiftui.git
-cd vocabulary-app-swiftui
+git clone https://github.com/mwefky/VocabularyApp.git
+cd VocabularyApp
 Open .xcodeproj or .xcworkspace
 
 Run the project on any simulator or device (under 100MB build)
 
 🙏 Credits
-Special thanks to Tangent-App and Corentin Selz for sending me this challenge. It was a joy to rebuild this app with care, speed, and creativity.
+Special thanks to Tangent-App and @Corentin Selz for sending me this challenge. It was a joy to build this app with care, speed, and creativity.
 
 📜 License
 MIT License — feel free to fork, modify, or contribute.
