@@ -34,5 +34,7 @@ struct OnboardingView: View {
             .tag(1)
         }
         .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
+        .background(Color(.systemGray6)) // Soft light/dark bg
+        .ignoresSafeArea()
     }
 }

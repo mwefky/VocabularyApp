@@ -16,15 +16,18 @@ struct OnboardingPageView: View {
     var body: some View {
         VStack(spacing: 24) {
             Spacer()
+
             Text(title)
                 .font(.largeTitle)
-                .bold()
+                .fontWeight(.bold)
                 .multilineTextAlignment(.center)
+                .foregroundColor(.primary)
 
             Text(subtitle)
                 .font(.title3)
                 .multilineTextAlignment(.center)
                 .padding(.horizontal, 32)
+                .foregroundColor(.secondary)
 
             Spacer()
 
@@ -33,12 +36,17 @@ struct OnboardingPageView: View {
                     .font(.headline)
                     .frame(maxWidth: .infinity)
                     .padding()
-                    .background(Color.blue)
+                    .background(Color.accentColor)
                     .foregroundColor(.white)
                     .cornerRadius(12)
                     .padding(.horizontal, 32)
             }
             .padding(.bottom, 40)
         }
+        .padding()
+        .background(Color(.systemBackground))
+        .cornerRadius(20)
+        .shadow(color: Color.black.opacity(0.05), radius: 5, x: 0, y: 2)
     }
 }
+
