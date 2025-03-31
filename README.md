@@ -26,7 +26,7 @@ A lightweight, beautiful, and intuitive vocabulary learning app rebuilt in **Swi
 shots
 ![Simulator Screenshot - iPhone 16 Pro - 2025-03-31 at 15 02 50](https://github.com/user-attachments/assets/39087a56-5827-4420-b53d-c0861cdb057b)
 ![Simulator Screenshot - iPhone 16 Pro - 2025-03-31 at 15 01 48](https://github.com/user-attachments/assets/a4835718-39d8-48e9-b830-9cd6da2912c5)
-![Simulator Screenshot - iPhone 16 Pro - 2025-03-31 at 15 01 48](https://github.com/user-attachments/assets/8b73919e-694d-4ea0-bc36-096229953a8e)
+![Simulator Screenshot - iPhone 16 Pro - 2025-03-31 at 15 01 53](https://github.com/user-attachments/assets/9a046438-49b2-4ed6-8bad-b264e613afd3)
 
 ---
 
